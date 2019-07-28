@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<!--To make the page responsive-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--To link css to this html page-->
+	<link rel="stylesheet" href="css/movie.css">
+
+	<!--To link javascript code to the html page-->
+	<script src="js/movieProgram.js"></script>
+
+</head>
+
+<body>
+
+<div class="header">
+  <img id="logo" src="images/imdb.jpg" alt="Girl in a jacket">
+  <div class="header-right">
+    
+  </div>
+</div>
+
+	<div id="container" style="text-align: center; opacity: 0.85; background-color: plum; width: 80%; border-radius: 15px 50px 30px; margin: 130px">
+
+		<div style="display: inline-block;">
+
+		<h1 style="color: green">Welcome to Movie Database</h1><br>
+		
+			<br>
+			<br>
+			
+			<table>
+				<tr><td>Movie Name: </td><td>
+				<input type="text" placeholder="Enter a movie name" name="movieTitle" id="movieTitle"></input></td></tr>
+				
+				<tr><td></td><td>
+				<input type="button" onclick="moviee()" value="Search Movie" id="movieTitle"></input></td></tr>
+				
+				<tr><td style= "display: none" id="titleTag">Title</td><td id="titlee"></td></tr>
+				<tr><td style= "display: none" id="RatingTag">IMDB Rating</td><td id="ratingg"></td></tr>
+				<tr><td style= "display: none" id="plotTag">Plot</td><td id="plott"></td></tr>
+			
+			
+			</table>
+					
+			</div>
+		
+		</div>
+
+<div class="footer">
+  <p>Copyrights Registered</p>
+</div>
+
+
+
+</body>
+
+</html>
